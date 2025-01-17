@@ -1,0 +1,23 @@
+To compile the Project:
+
+    - prerequisits:
+        - Must have a DBEAVER Database already made with employee table
+        - You must also change the information in the DatabaseInformation.class file to be able to use your database
+    
+    - open a terminal and cd to the root directory and run the below command
+        ( if any errors show up, you may need to delete the .class files then run this again ):
+
+        javac -d bin -cp "lib/mysql-connector-j-9.0.0.jar" src/*.java
+
+    - then to run the program do ( Make sure you are in the root directory "PartB/"):
+
+        java -cp "bin;lib/mysql-connector-j-9.0.0.jar" src.Main
+
+
+
+
+
+
+
+
+        
